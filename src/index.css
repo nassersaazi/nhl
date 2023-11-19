@@ -6,9 +6,5 @@
 @tailwind utilities;
 
 body {
-  background-color: #000300;
-}
-
-.low-contrast {
-  filter: contrast(0.8);
+  background-color: #d6deee;
 }

@@ -3,12 +3,12 @@ import Typed from 'react-typed';
 const Hero = () => {
 
   return (
-    <div className='text-white'  >
+    <div className='bg-[#f7f9fa]'  >
       <div className='max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center'>
-        <p className='text-[#00df9a] font-bold p-2'>
+        <p className='text-[#28406D] font-bold p-2'>
           PUTTING CLIENT INTERESTS FIRST
         </p>
-        <h1 className='md:text-7xl sm:text-6xl text-4xl font-bold md:py-6'>
+        <h1 className='md:text-7xl sm:text-6xl text-4xl font-bold md:py-6 capitalize'>
           The Leading economics consultancy firm in Uganda
         </h1>
         <div className='flex justify-center items-center'>
@@ -23,7 +23,7 @@ const Hero = () => {
             loop
           />
         </div>
-        <button className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black'>Get Started</button>
+        <button className='bg-[#28406D] w-[200px] rounded-md font-bold text-2xl my-6 mx-auto py-3 text-white capitalize '>Book a call</button>
       </div>
     </div>
   );

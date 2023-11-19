@@ -19,7 +19,7 @@ export default {
     },
     extend: {
       fontFamily: {
-        palanquin: ['Palanquin', 'sans-serif'],
+        urbanist: ['Urbanist', 'sans-serif'],
         montserrat: ['Montserrat', 'sans-serif'],
       },
       colors: {
