@@ -32,7 +32,7 @@ const Navbar = () => {
               About Us
             </Link>
         <Link
-              to="contact"
+              to="/contact"
               className="text-white  p-4 cursor-pointer hover:text-[#28406D]"
             >
               Contact Us
