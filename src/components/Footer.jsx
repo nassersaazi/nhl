@@ -2,9 +2,10 @@ import { FaFacebookSquare, FaTwitterSquare, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className="  mx-auto py-16 max-w-6xl grid lg:grid-cols-3 gap-8 text-gray-700">
+    <div className="bg-[#28406D]">
+      <div className="max-w-6xl text-gray-300 mx-auto py-16  grid lg:grid-cols-3 gap-8">
       <div>
-        <h1 className="w-full text-3xl font-bold text-[#28406D]">
+        <h1 className="w-full text-3xl font-bold text-white">
           Nakinsige Holdings
         </h1>
         <p className="py-4 ">
@@ -45,6 +46,7 @@ const Footer = () => {
             <li className="py-2 text-sm">Terms</li>
           </ul>
         </div>
+      </div>
       </div>
     </div>
   );
