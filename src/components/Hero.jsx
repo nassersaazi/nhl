@@ -30,8 +30,8 @@ const Hero =  () => {
             loop
           />
         </div>
-        <button className="bg-[#28406D] w-[200px] font-bold text-2xl my-6 mx-auto py-3 text-white capitalize ">
-         Free Consultation 
+        <button className="bg-[#28406D] w-[600px] font-bold text-2xl my-6 mx-auto py-3 text-white capitalize ">
+         BOOK FREE CONSULTATION 
         </button>
       </div>
     </div>
