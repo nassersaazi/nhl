@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
+import Home from "./components/Home";
 import About from "./components/About";
 import News from "./components/News";
 import Research from "./components/Research";
@@ -12,7 +12,7 @@ const App = () => {
     <BrowserRouter>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Hero />} />
+        <Route path="/" element={<Home />} />
         <Route path="/research" element={<Research />} />
         <Route path="/news" element={<News />} />
         <Route path="/about" element={<About />} />

@@ -1,9 +1,9 @@
 import Typed from "react-typed";
 
-const Hero =  () => {
+const Home =  () => {
   return (
     <div className="bg-slate-100">
-      <div className="absolute inset-0 z-0">
+      <div className="absolute inset-0 ">
         <img
           src="./src/assets/cover.avif"
           alt="Background Image"
@@ -38,4 +38,4 @@ const Hero =  () => {
   );
 };
 
-export default Hero;
+export default Home;
