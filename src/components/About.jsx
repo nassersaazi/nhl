@@ -1,72 +1,40 @@
-import { HiOutlineDocumentText } from "react-icons/hi";
-
 const About = () => {
   return (
-    <div className='text-white'>
-      <div className='py-40 bg-black text-center px-4'>
-        <h1 className='lg:text-7xl text-5xl leading-snug font-bold mb-5'>About Us Page</h1>
-      </div>
+    <div className=" min-h-screen flex  md:flex-row items-center md:mx-32 mx-5">
+      <div className="flex flex-row gap-8 items-center">
+        <div className=" w-full md:w-2/4 space-y-5 mt-4">
+          <h1 className="text-2xl font-semibold  md:text-start pb-8 md:mt-0">
+            About Us
+          </h1>
+          <p>
+            Meet Mr. Lwanga Musa, the Chief Economics Consultant at NHL
+            Consultants. Mr. Lwanga holds a Master’s degree in International
+            Economics from the Berlin School of Economics and Law, Germany
+            (Hochschule für Wirtschaft und Recht Berlin) and a BSc. degree in
+            Quantitative Economics from Makerere University, Kampala. I have
+            over ten years of experience in conducting policy relevant research
+            in several fields of economics. I am an expert in financial sector
+            economics and have a wealth of experience in designing and
+            implementing largescale surveys.
+          </p>
 
-      {/* about content */}
-      <div className='max-w-7xl mx-auto px-4 my-20 text-black'>
-
-        {/* top content */}
-        <div className='flex flex-col md:flex-row justify-between items-center gap-12'>
-          <div className='md:w-1/2'>
-            <h5 className='text-orange-500 text-xl font-medium mb-4'>Who we are</h5>
-            <h2
-              className="font-bold text-3xl sm:text-4xl md:text-[40px] text-darkmb-4 mb-8"
-            >
-              We provide high quality Articles & blogs
-            </h2>
-            <p className='text-lg text-gray-600'>Sed ullamcorper dui at risus viverra, nec cursus leo ullamcorper. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos congue dui nec dui lobortis maximus.
-              <br /> <br />
-              Curabitur pretium, libero vitae pharetra rhoncus, tellus urna auctor orci, eu dictum diam diam nec neque. Pellentesque.</p>
-          </div>
+          <p>
+            I am a member of the African Econometrics Society, the Uganda
+            Economists Association and the UNCTAD Virtual Institute. I have
+            served on a number of technical working committees including the
+            FinScope Steering Committee at Bank of Uganda, the Agriculture
+            Finance Technical Working Group, the Private Sector Working Group at
+            the Ministry of Finance Planning and Economic development and the
+            GIS Financial services working group at the Financial Sector
+            Deepening Uganda (FSDU){" "}
+          </p>
         </div>
-
-        {/* Author section */}
-        <div className='mt-20'>
-          <h2 className='text-5xl font-bold mb-8 '>Top Authors</h2>
-          <hr className='my-5' />
-
-          <div className='grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 justify-between items-center w-full mx-auto gap-12 mt-12'>
-            <div className='bg-slate-50 w-72 py-8 text-center cursor-pointer hover:-translate-y-4 transition-all duration-300'>
-              <div>
-                <h5 className='text-lg font-medium mb-1'>Adrio Devid</h5>
-                <p className='text-base mb-2'>Director of Operations</p>
-                <div className='flex gap-2 items-center text-gray-600 justify-center'><HiOutlineDocumentText className='w-5 h-5' /> 12 Article Published </div>
-              </div>
-            </div>
-            <div className='bg-slate-50 w-72 py-8 text-center cursor-pointer hover:-translate-y-4 transition-all duration-300'>
-              <div>
-                <h5 className='text-lg font-medium mb-1'>Rayna Mario</h5>
-                <p className='text-base mb-2'>Content Writer</p>
-                <div className='flex gap-2 items-center text-gray-600 justify-center'><HiOutlineDocumentText className='w-5 h-5' />8 Article Published </div>
-              </div>
-            </div>
-            <div className='bg-slate-50 w-72 py-8 text-center cursor-pointer hover:-translate-y-4 transition-all duration-300'>
-              <div>
-                <h5 className='text-lg font-medium mb-1'>Devid Tac</h5>
-                <p className='text-base mb-2'>Head of Marketing</p>
-                <div className='flex gap-2 items-center text-gray-600 justify-center'><HiOutlineDocumentText className='w-5 h-5' />5 Article Published </div>
-              </div>
-            </div>
-
-            <div className='bg-slate-50 w-72 py-8 text-center cursor-pointer hover:-translate-y-4 transition-all duration-300'>
-              <div>
-                <h5 className='text-lg font-medium mb-1'>Mark Jacob</h5>
-                <p className='text-base mb-2'>Head of Marketing</p>
-                <div className='flex gap-2 items-center text-gray-600 justify-center'><HiOutlineDocumentText className='w-5 h-5' />5 Article Published </div>
-              </div>
-            </div>
-
-          </div>
-
+        <div className="p-24">
+          <img src="./src/assets/about.png" alt="Background Image" />
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default About
+export default About;
