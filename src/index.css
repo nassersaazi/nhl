@@ -9,3 +9,7 @@ body {
   background-color: #d6deee;
   font-family: 'Urbanist', sans-serif;
 }
+
+li {
+  padding-top: 1rem;
+}
