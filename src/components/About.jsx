@@ -7,11 +7,11 @@ const About = () => {
             Meet The Chief Consultant
           </h1>
           <p>
-            Musa Mayanja Lwanga is the Head of Research and Market Development at the
+            Musa Mayanja Lwanga is the Head of Research and Market Development at the
             Uganda Bankers Association (UBA). Prior to joining UBA, Musa worked with the
             Economic Policy Research Centre, Makerere University, Biz-Econ Consultancy,
             Buchwerk GmbH in Darmstadt Germany and as a Research Assistant to Dr Neil
-            Kodesh. He holds a Master’s degree in International Economics from the Berlin School
+            Kodesh. He holds a Master's degree in International Economics from the Berlin School
             of Economics and Law (Hochschule für Wirtschaft und Recht, Berlin) and a BSc. degree
             in Quantitative Economics from Makerere University, Kampala. He has over eight years
             of experience in conducting policy relevant research in several fields of economics.
