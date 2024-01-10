@@ -6,7 +6,7 @@ import { AiOutlineClose } from "react-icons/ai";
 
 const Navbar = () => {
 
-const [menu, setMenu] = useState(false);
+  const [menu, setMenu] = useState(false);
 
   const handleChange = () => {
     setMenu(!menu);
@@ -20,54 +20,54 @@ const [menu, setMenu] = useState(false);
       <div>
         <div className=" flex flex-row justify-between p-5 md:px-32 px-5 bg-white shadow-[0_3px_10px_rgb(0,0,0,0.2)]">
           <div className=" flex flex-row items-center cursor-pointer">
-            
+
             <h1 className=" text-xl font-semibold">Nakinsige Holdings</h1>
           </div>
 
-          <nav className="hidden md:flex flex-row items-center text-lg font-medium gap-8">
-            <Link
-              to="/"
-              spy={true}
-              smooth={true}
-              duration={500}
-              className="hover:text-[#28406D] transition-all cursor-pointer"
-            >
-              Home
-            </Link>
+          <ul className="hidden md:flex flex-row items-center text-lg font-medium gap-8">
+            <li>
+              <Link
+                to="/"
+                className="hover:text-[#28406D] transition-all cursor-pointer"
+              >
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/research"
+                className="hover:text-[#28406D] transition-all cursor-pointer"
+              >
+                Research and Publications
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/about"
+                className="hover:text-[#28406D] transition-all cursor-pointer"
+              >
+                About
+              </Link></li>
+            <li>
+              <Link
+                to="/news"
+                className="hover:text-[#28406D] transition-all cursor-pointer"
+              >
+                In the News
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="#"
+                className=" bg-[#28406D]  font-bold text-2xl my-auto mx-auto p-3 text-white capitalize"
+              >
+                In the News
+              </Link>
 
-                <Link
-                  to="/research"
-                  spy={true}
-                  smooth={true}
-                  duration={500}
-                  className="hover:text-[#28406D] transition-all cursor-pointer"
-                >
-                  Research and Publications
-                </Link>
+            </li>
 
-            <Link
-              to="/news"
-              spy={true}
-              smooth={true}
-              duration={500}
-              className="hover:text-[#28406D] transition-all cursor-pointer"
-            >
-              In the News
-            </Link>
-            <Link
-              to="/about"
-              spy={true}
-              smooth={true}
-              duration={500}
-              className="hover:text-brightColor transition-all cursor-pointer"
-            >
-              About
-            </Link>
-
-
-
-            <Button title="CALL +256 708 976 718" />
-          </nav>
+            {/* <Button title="CALL +256 708 976 718" /> */}
+          </ul>
 
           <div className="md:hidden flex items-center">
             {menu ? (
