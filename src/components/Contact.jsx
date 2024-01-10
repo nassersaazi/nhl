@@ -2,7 +2,7 @@
 const Contact = () => {
   return (
     <div className='text-white'>
-      <div className='py-40 bg-black text-center px-4'>
+      <div className='lg:hidden py-40 bg-black text-center px-4'>
         <h1 className='lg:text-7xl text-5xl leading-snug font-bold mb-5'>Contact Us</h1>
       </div>
 

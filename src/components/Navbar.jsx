@@ -58,15 +58,14 @@ const Navbar = () => {
             </li>
             <li>
               <Link
-                to="#"
+                to="/contact"
                 className=" bg-[#28406D]  font-bold text-2xl my-auto mx-auto p-3 text-white capitalize"
               >
-                In the News
+                Book Free Consultation
               </Link>
 
             </li>
 
-            {/* <Button title="CALL +256 708 976 718" /> */}
           </ul>
 
           <div className="md:hidden flex items-center">
@@ -81,54 +80,39 @@ const Navbar = () => {
           className="lg:hidden flex flex-col absolute bg-black text-white left-0 top-20 font-semibold text-2xl text-center pt-8 pb-4 gap-8 w-full h-fit transition-transform duration-300`}
         ">
           <Link
-            to="home"
-            spy={true}
-            smooth={true}
-            duration={500}
+            to="/home"
             className="hover:text-brightColor transition-all cursor-pointer"
             onClick={closeMenu}
           >
             Home
           </Link>
           <Link
-            to="dishes"
-            spy={true}
-            smooth={true}
-            duration={500}
+            to="/research"
             className="hover:text-brightColor transition-all cursor-pointer"
             onClick={closeMenu}
           >
-            Dishes
+            Research and Publications
           </Link>
           <Link
-            to="about"
-            spy={true}
-            smooth={true}
-            duration={500}
+            to="/about"
             className="hover:text-brightColor transition-all cursor-pointer"
             onClick={closeMenu}
           >
             About
           </Link>
           <Link
-            to="menu"
-            spy={true}
-            smooth={true}
-            duration={500}
+            to="/news"
             className="hover:text-brightColor transition-all cursor-pointer"
             onClick={closeMenu}
           >
-            Menu
+            In the News
           </Link>
           <Link
-            to="review"
-            spy={true}
-            smooth={true}
-            duration={500}
+            to="/contact"
             className=" hover:text-brightColor transition-all cursor-pointer"
             onClick={closeMenu}
           >
-            Reviews
+            Book Free Consultation
           </Link>
         </div>
       </div>
