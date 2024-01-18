@@ -10,6 +10,10 @@ body {
   font-family: 'Urbanist', sans-serif;
 }
 
+.active{
+  @apply text-[#97add1] underline decoration-[#97add1] underline-offset-4;
+}
+
 li {
   padding-top: 1rem;
 }
