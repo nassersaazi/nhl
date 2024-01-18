@@ -1,13 +1,18 @@
 
 const Contact = () => {
   return (
-    <div className='text-white'>
-      <div className='lg:hidden py-40 bg-black text-center px-4'>
-        <h1 className='lg:text-7xl text-5xl leading-snug font-bold mb-5'>Contact Us</h1>
+    <div >
+      <div className='py-40 bg-black text-center px-4'>
+        <p className="text-[#97add1] font-bold p-2">
+          PUTTING CLIENT INTERESTS FIRST
+        </p>
       </div>
 
       {/* contact content */}
-      <div className="my-20 max-w-7xl mx-auto">
+      <div className="my-10 max-w-7xl mx-auto">
+        <h1 className="text-3xl text-center font-bold pb-14 ">
+          Book Free Consultation
+        </h1>
         <div className="flex flex-col md:flex-row items-center justify-between gap-12">
           <div className="mx-auto w-full max-w-[550px]">
             <form action="https://formbold.com/s/FORM_ID" method="POST">

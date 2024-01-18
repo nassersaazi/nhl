@@ -10,6 +10,10 @@ body {
   font-family: 'Urbanist', sans-serif;
 }
 
+.active{
+  @apply text-[#97add1];
+}
+
 li {
   padding-top: 1rem;
 }

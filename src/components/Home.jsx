@@ -5,7 +5,7 @@ const Home =  () => {
     <div className="bg-slate-100">
       <div className="absolute inset-0 ">
         <img
-          src="./src/assets/cover.avif"
+          src="/static/images/cover.avif"
           alt="Background Image"
           className="w-full h-full object-cover"
           style={{ filter: "brightness(0.3)" }}
@@ -30,8 +30,8 @@ const Home =  () => {
             loop
           />
         </div>
-        <button className="bg-[#28406D] w-[600px] font-bold text-2xl my-6 mx-auto py-3 text-white capitalize ">
-         BOOK FREE CONSULTATION 
+        <button className="hidden lg:block bg-[#28406D] w-[600px] font-bold text-2xl my-6 mx-auto py-3 text-white capitalize ">
+         BOOK CONSULTATION 
         </button>
       </div>
     </div>
